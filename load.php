@@ -1,8 +1,23 @@
 <?php
 
-require_once "layouts/layouts.php";
+require_once "layouts/layout.php";
+$Objlayouts = new layouts();
 
-$ObjLayouts = new layouts();
+require_once "layouts/menus.php";
+$Objmenus = new menus();
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //$arr = ["black", "white", "green", "red"];
