@@ -8,17 +8,18 @@ class layouts{
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <?php
+        <?php
     }
     public function footer(){
         ?>
-    <div>
-        Copyright &copy; ICS <?php print date('Y'); ?>
-    </div>
-    </body>
-    </html>
-<?php
+<div class="footer">
+    Copyright &copy; ICS <?php print date("Y"); ?>
+</div>
+</body>
+</html>
+        <?php
     }
 }
